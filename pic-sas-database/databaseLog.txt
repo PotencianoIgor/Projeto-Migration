@@ -1,0 +1,131 @@
+info: 30/04/2021 17:40:34.148 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 5.0.4 initialized 'DefaultDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+dbug: 30/04/2021 17:40:34.263 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:34.277 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:34.865 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:34.872 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (8ms).
+dbug: 30/04/2021 17:40:34.883 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 30/04/2021 17:40:34.963 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:34.974 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 30/04/2021 17:40:34.974 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 30/04/2021 17:40:34.974 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:34.975 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 30/04/2021 17:40:35.058 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.061 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.061 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:35.061 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 30/04/2021 17:40:35.061 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+dbug: 30/04/2021 17:40:35.092 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.094 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 30/04/2021 17:40:35.094 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 30/04/2021 17:40:35.094 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.096 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: 30/04/2021 17:40:35.161 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.611 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 30/04/2021 17:40:35.611 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 30/04/2021 17:40:35.611 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.611 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+dbug: 30/04/2021 17:40:35.638 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader was disposed.
+dbug: 30/04/2021 17:40:35.639 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+info: 30/04/2021 17:40:35.656 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20210409112315'.
+dbug: 30/04/2021 17:40:35.720 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'pic_sas_pc_dev' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.722 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 30/04/2021 17:40:35.743 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 30/04/2021 17:40:35.744 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:35.744 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 30/04/2021 17:40:35.745 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      USE [PIC_SAS_PC_DEV]
+dbug: 30/04/2021 17:40:35.758 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:35.758 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 30/04/2021 17:40:35.758 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      /****** Object:  Table [dbo].[ajuda]    Script Date: 30/04/2021 17:09:55 ******/
+      SET ANSI_NULLS ON
+dbug: 30/04/2021 17:40:35.772 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:35.772 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 30/04/2021 17:40:35.772 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SET QUOTED_IDENTIFIER ON
+dbug: 30/04/2021 17:40:35.789 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 30/04/2021 17:40:35.789 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 30/04/2021 17:40:35.789 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [dbo].[ajuda](
+      	[id] [int] IDENTITY(100,1) NOT NULL,
+      	[descricao] [varchar](240) NULL,
+      	[palavras_chave] [varchar](160) NULL,
+      	[tipo_ajuda] [char](1) NULL,
+      	[texto] [text] NULL,
+      	[status] [char](1) NOT NULL,
+       CONSTRAINT [PK_ajuda] PRIMARY KEY CLUSTERED 
+      (
+      	[id] ASC
+      )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+      ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+fail: 30/04/2021 17:40:35.822 RelationalEventId.CommandError[20102] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Failed executing DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [dbo].[ajuda](
+      	[id] [int] IDENTITY(100,1) NOT NULL,
+      	[descricao] [varchar](240) NULL,
+      	[palavras_chave] [varchar](160) NULL,
+      	[tipo_ajuda] [char](1) NULL,
+      	[texto] [text] NULL,
+      	[status] [char](1) NOT NULL,
+       CONSTRAINT [PK_ajuda] PRIMARY KEY CLUSTERED 
+      (
+      	[id] ASC
+      )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+      ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+dbug: 30/04/2021 17:40:35.887 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 30/04/2021 17:40:35.888 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'PIC_SAS_PC_DEV' on server 'SERVQA2'.
+dbug: 30/04/2021 17:40:35.890 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'DefaultDbContext' disposed.
